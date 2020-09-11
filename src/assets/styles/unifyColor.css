@@ -1,0 +1,100 @@
+.van-radio__icon--checked .van-icon {
+  height: 0.466667rem;
+  width: 0.466667rem;
+  line-height: 0.466667rem;
+  border-radius: 50%;
+  background-color: #2C61AD;
+  border-color: #2C61AD;
+}
+
+.van-sidebar-item--select {
+  border-color: #2C61AD;
+}
+
+.van-dropdown-item__option--active,
+.van-dropdown-item__option--active .van-dropdown-item__icon,
+.van-tree-select__item--active {
+  color: #2C61AD;
+}
+
+.van-swipe__indicator--active {
+  background-color: #2C61AD;
+}
+
+.van-dialog__confirm,
+.van-dialog__confirm:active {
+  color: #2C61AD;
+}
+
+.van-tabbar-item--active,
+.van-dropdown-menu__title--active,
+.van-dropdown-item__option--active,
+.default_color {
+  color: #2c61ad;
+}
+
+.default_back_color {
+  background-color: #2c61ad;
+}
+
+.default_info_border_color {
+  border-left: 0.133333rem solid #2c61ad;
+}
+
+.default_active_color {
+  color: #2c61ad;
+  font-weight: bold;
+  border-bottom: 0.08rem solid #2c61ad;
+}
+
+.default_left_course_color {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  color: #2C61AD;
+}
+
+.company_left_pic {
+  float: left;
+  width: 0.133333rem;
+  height: 0.8rem;
+  margin: 0.133333rem 0.4rem;
+  background: #2C61AD;
+}
+
+.same_style_for_ul .default_skills_color {
+  color: #fff !important;
+  background: #2C61AD !important;
+}
+
+.tabs .van-tabs__wrap .van-tab--active {
+  color: #2c61ad;
+}
+
+.tabs .van-tabs__wrap .van-tabs__line {
+  background-color: #2c61ad;
+}
+
+/* 保存等按钮过度颜色 */
+.industry_list .label_list .label_active,
+.btn_gradient_color {
+  background: linear-gradient(to right, #7299d9, #3d77ca);
+}
+
+/* 信息采集显示是否窗口录入提示背景色 */
+.info_head_line {
+  background: #8cb9fb;
+}
+
+
+
+/* 保存等按钮过度颜色 */
+/* .industry_list .label_list .label_active,
+.btn_gradient_color {
+  background: linear-gradient(to right, #fc9593, #ed4f4c);
+} */
+
+/* 信息采集显示是否窗口录入提示背景色 */
+/* .info_head_line {
+  background: #fc9593;
+} */

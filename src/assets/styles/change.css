@@ -1,0 +1,268 @@
+/* * {
+  touch-action: pan-y;
+} */
+
+ul,
+li {
+  list-style: none;
+}
+
+a:hover {
+  color: #000 !important;
+}
+
+.no-result {
+  border-top: 10px solid #f4f4f4;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  color: #666666;
+}
+
+.down {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.van-picker__toolbar {
+  height: 80px;
+}
+
+.van-picker__cancel,
+.van-picker__confirm {
+  font-size: 27px;
+}
+
+.van-picker-column {
+  font-size: 28px;
+}
+
+/* 单选 */
+.van-radio {
+  height: 48px;
+  float: left;
+  padding-right: 20px;
+}
+
+.van-radio__icon {
+  height: auto;
+  /* line-height: 35px; */
+}
+
+.van-radio__icon .van-icon {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border: 2px solid #ccc;
+}
+
+.van-radio__label {
+  color: #888;
+}
+
+/* tabbar */
+.mint-tab-item-icon {
+  height: 45px;
+  width: 45px;
+}
+
+/* 判断登录的弹框 */
+.van-dialog__message {
+  line-height: inherit;
+  font-size: 30px;
+  padding: 50px 0;
+}
+
+.van-button__text {
+  font-size: 30px;
+}
+
+.van-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  margin-top: -100px;
+  margin-left: -250px;
+  transform: translate(0);
+}
+
+.van-dialog .van-button {
+  height: 80px;
+  border-top: 1px solid #ccc;
+}
+
+.van-dialog .van-dialog__cancel {
+  border-right: 1px solid #ccc;
+}
+
+/* 提示框 */
+.van-toast {
+  width: 300px;
+  transform: none;
+  margin-top: -50px;
+  margin-left: -150px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .8);
+  z-index: 10;
+}
+
+.mint-tab-item-label {
+  font-size: 25px;
+}
+
+.mint-indicator-text {
+  font-size: 30px;
+}
+
+.mint-toast-text {
+  font-size: 30px;
+}
+
+.van-list__finished-text {
+  font-size: 25px;
+}
+
+.van-dialog__header {
+  font-size: 28px;
+}
+
+.van-loading__text {
+  font-size: 28px;
+}
+
+.van-pull-refresh__track {
+  height: 100%;
+}
+
+.van-pull-refresh__head {
+  font-size: 28px;
+}
+
+.van-tabbar {
+  height: 90px;
+}
+
+.van-tabbar-item__icon {
+  width: 45px;
+  height: 45px;
+}
+
+.van-tabbar-item__icon img {
+  height: 100%;
+  width: 100%;
+}
+
+.van-tabbar-item__text {
+  font-size: 25px;
+}
+
+.van-toast--loading {
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.van-loading__spinner {
+  width: 75px;
+  height: 75px;
+}
+
+.van-swipe__indicator {
+  width: 10px;
+  height: 10px;
+}
+
+.van-swipe__indicator:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* 搜索条件 */
+.van-dropdown-menu {
+  height: 75px;
+}
+
+.van-dropdown-menu__title {
+  line-height: normal;
+  font-size: 26px;
+  max-width: 80%;
+}
+
+.van-dropdown-menu__item {
+  border-right: 2px solid #dcdcdc;
+}
+
+.van-dropdown-menu__title::after {
+  right: -12px;
+  margin-top: -6px;
+  border: 6px solid;
+  border-color: transparent transparent currentColor currentColor;
+}
+
+.van-cell,
+.van-sidebar-item__text,
+.van-tree-select__item {
+  font-size: 26px;
+  line-height: 60px;
+}
+
+.van-tree-select__item {
+  font-weight: normal;
+}
+
+.van-tree-select__selected {
+  font-size: 26px;
+}
+
+.van-tree-select__content {
+  flex: 1;
+}
+
+.guide_btn {
+  position: fixed;
+  right: 0px;
+  bottom: 400px;
+  min-width: 50px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+  border-radius: 50px 0 0 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* 种类弹框 */
+.van-popup__close-icon {
+  font-size: 32px;
+  color: #000;
+}
+
+.tabs .van-tabs__wrap {
+  height: 100%;
+  width: 100%;
+}
+
+.tabs .van-tabs__wrap .van-tab {
+  line-height: 80px;
+}
+
+.tabs .van-tabs__wrap .van-tab .van-tab__text {
+  font-size: 30px;
+}
