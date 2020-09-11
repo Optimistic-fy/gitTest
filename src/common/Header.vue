@@ -4,7 +4,7 @@
       <Button class="btn"
               icon="back"
               @click="goBack"></Button>
-      <div class="title">{{title}}</div>
+      <div class="title">{{title}}哈哈哈</div>
     </div>
   </div>
 </template>
